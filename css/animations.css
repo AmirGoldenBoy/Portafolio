@@ -1,0 +1,67 @@
+@-webkit-keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateX(-40px);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     transform: translateX(-40px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+}
+
+.fadeInLeft {
+-webkit-animation-name: fadeInLeft;
+animation-name: fadeInLeft;
+} 
+
+@keyframes spin {
+    from{
+        height:0px;
+        width: 0px;
+
+    }
+    to{
+        height: 249px;
+        width: 250px;
+    }
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from{
+    height:0px;
+    width: 0px;
+
+}
+to{
+    height: 98px;
+    width: 98px;
+}
+  from {
+    transform:rotate(0deg);
+}
+to {
+    transform:rotate(360deg);
+}
+}
+
+.spin {
+  -webkit-animation-name: spin;
+  animation-name: spin;
+}
