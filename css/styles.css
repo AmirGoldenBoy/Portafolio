@@ -240,8 +240,7 @@ font-size: 30px;
 
 .social {
   display: flex ;
-  justify-content: flex-end;
-  transform: translate(-5px, -4px);
+  justify-content:  center;
 }
 
 .social-img {
